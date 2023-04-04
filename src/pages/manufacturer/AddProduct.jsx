@@ -177,6 +177,7 @@ const AddProduct = (props) => {
               placeholder=" Manufacturing Date*"
               //onfocus="(this.type='date')
             />
+
             <input
               className="w-full bg-gray-100 text-gray-900 m-3 p-3 rounded-lg focus:outline-none focus:shadow-outline"
               type="text"
@@ -185,6 +186,7 @@ const AddProduct = (props) => {
               onChange={handleInputChange}
               placeholder="Manufacturing Location*"
             />
+
             <input
               className="w-full bg-gray-100 text-gray-900 m-3 p-3 rounded-lg focus:outline-none focus:shadow-outline"
               type="text"
@@ -194,7 +196,7 @@ const AddProduct = (props) => {
               placeholder="Price*"
             />
             <div className="w-[100%]  mx-2 p-2 bg-white m-2  rounded-lg relative">
-              <Button type="submit">Add Product</Button>
+              <Button type="submit">Add Prod</Button>
             </div>
           </form>
         </div>
